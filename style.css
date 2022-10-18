@@ -1,0 +1,81 @@
+nav{
+    display:inline-flex;
+    
+}
+body{
+    background-color: brown;
+}
+#list{
+    width: 100px;
+    height: 20px;
+}
+#heading{
+    font-size: 30px;
+    color:red;
+    width: auto;
+    height: auto;
+    background-color:rgb(201, 209, 188);
+    border-radius: 50px 1px 50px 1px;
+}
+#list ul{
+    display:inline-flex;
+    float: left;
+   
+    font-size: 30px;
+    padding: 30px;
+    margin-left: 300px;
+}
+#list ul li{
+   float:right;
+   list-style-type: none;
+    font-size: 30px;
+    padding: 20px;
+    border: 2px solid gray;
+    padding: 10px;
+    
+}
+#list ul li:hover{
+    background-color: gainsboro;
+}
+#home, #about,#services{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px;
+    color: white;
+}
+#signup{
+    width:400px;
+    height: 300px;
+    margin: 0px auto;
+    background-color: aquamarine;
+}
+form{
+    margin: 70px;
+}
+#footer{
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+#footer #one1{
+    width: 50%;
+   
+}
+#footer #one2{
+    width: 100px;
+   
+    
+}
+img{
+    padding: 100px;
+    border-radius: 30%;
+}
+#copyright{
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
